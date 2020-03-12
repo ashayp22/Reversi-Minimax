@@ -1,0 +1,64 @@
+p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+
+td {
+border: 1px solid #3f4042;
+height: 50px;
+width: 50px;
+border-style: solid;
+border-width: 5px;
+
+}
+
+table{
+  position:absolute;
+  left:50%;
+  margin-left:-250px;
+  top:32.5%;
+}
+
+#game {
+  visibility: hidden;
+}
+
+
+
+.one {
+  display:inline-block;
+  background:white;
+  height:200px;
+  width:200px;
+  border: 10px solid #333;
+  margin-left: 100px;
+}
+
+.two {
+    display:inline-block;
+    background:#333;
+    height:200px;
+    width:200px;
+    border: 10px solid #fff;
+
+    margin-right: 100px;
+}
+
+html{
+
+  text-align: center;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+
+
+
